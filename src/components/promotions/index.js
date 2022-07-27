@@ -16,8 +16,19 @@ export default function Promotions(){
 
     useEffect(() => {
 
+        setTimeout(() => {
+            setShow(false);
+        }, 3000);
+
         const intervalid = setInterval(() => {
-            setMessageIndex(i => (i + 1) % messages.length)
+            setMessageIndex(i => (i + 1) % messages.length);
+
+            setShow(true);
+
+            setTimeout(() => {
+                setShow(false);
+            }, 3000);
+
         }, 4000);
 
         return () => {
@@ -28,7 +39,7 @@ export default function Promotions(){
 
     return(
         <PromotionsContainer>
-            <Slide direction="left" in={show}>
+            <Slide direction={ show ? "left" : "right"} in={show}>
                 <Box display={'flex'} justifyContent={'center'} alignItems={'center'}>
                     <MessageText>
                         {messages[messageIndex]}
