@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sophie-react-ecommerce-app/static/css/main.27c93de5.css",
-    "main.js": "/Sophie-react-ecommerce-app/static/js/main.d8bc06a8.js",
+    "main.css": "/Sophie-react-ecommerce-app/static/css/main.2876b400.css",
+    "main.js": "/Sophie-react-ecommerce-app/static/js/main.0d769719.js",
     "static/media/montez-all-400-normal.woff": "/Sophie-react-ecommerce-app/static/media/montez-all-400-normal.79b5dfe53039dd35baa7.woff",
     "static/media/montez-latin-400-normal.woff2": "/Sophie-react-ecommerce-app/static/media/montez-latin-400-normal.e3ec19d3e32d3976b075.woff2",
     "index.html": "/Sophie-react-ecommerce-app/index.html",
-    "main.27c93de5.css.map": "/Sophie-react-ecommerce-app/static/css/main.27c93de5.css.map",
-    "main.d8bc06a8.js.map": "/Sophie-react-ecommerce-app/static/js/main.d8bc06a8.js.map"
+    "main.2876b400.css.map": "/Sophie-react-ecommerce-app/static/css/main.2876b400.css.map",
+    "main.0d769719.js.map": "/Sophie-react-ecommerce-app/static/js/main.0d769719.js.map"
   },
   "entrypoints": [
-    "static/css/main.27c93de5.css",
-    "static/js/main.d8bc06a8.js"
+    "static/css/main.2876b400.css",
+    "static/js/main.0d769719.js"
   ]
 }
