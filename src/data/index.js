@@ -11,7 +11,7 @@ export const products = [
       name: "Mni",
       price: 199.99,
       description: "MNI NeuroVance 30 Tablets optimises brain function and combats stress.",
-      image: "https://clicks.co.za/medias/MNI-Packs-NeuroVance-30-Front-Custom-.png?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDU4NTY5fGltYWdlL3BuZ3xwcm9kdWN0LWltYWdlcy9oNTMvaDI4Lzk4MDY2MTgxOTgwNDYucG5nfDJhNDY0NGUzMmI3ODQyODU1MzI0YzQzZjA0OGQ1ODY2ZGI3N2ViZGRiYzc4ZTk0Y2E2Y2M2ZDQ1OTdlMjg3NDg"
+      image: "https://c8.alamy.com/comp/RTTC99/benadryl-allergy-over-the-counter-medicine-photographed-in-a-pharmacy-RTTC99.jpg"
   },
   {
       id: 3,
@@ -25,13 +25,13 @@ export const products = [
       name: "Xcel Brainpower Tablets 60 Tablets",
       price: 296.99,
       description: "Xcel Brainpower Tablets 60 Tablets has a compound formulation that may assist in managing cognitive disorders.",
-      image: ""
+      image: "https://media.istockphoto.com/photos/cropped-shot-of-medication-on-a-kitchen-table-with-an-unrecognizable-picture-id1330898031?k=20&m=1330898031&s=612x612&w=0&h=jsEeFheDSBagnlLU2JWH0YxyjKLRL6m6mmZIBPAl6s4="
   },
   {
       id: 5,
-      name: "Best Tote",
+      name: "Medicine Pills",
       price: 399.99,
-      description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
+      description: "Cropped shot of medication on a kitchen table ",
       image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDM4MDE0M3xpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2hmZS9oZGIvMTAzODY1OTAxMDU2MzAuanBnfGFjYWI0ZjMzZDNmZmFmZjIxYzExYzkwMTFiMWExM2M2YWZlOWJkMzJmYWIxZDUzMjYxOWI0MjAwODFiZTAwZTk"
   },
   {
