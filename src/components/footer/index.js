@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+
 import {
   Grid,
   List,
@@ -46,7 +47,8 @@ This course introduces pharmacy practice and the technician's role in a variety 
             <InstagramIcon />
           </Box>
         </Grid>
-        <Grid item md={6} lg={2}>
+
+        <Grid item md={6} lg={2} id="move">
           <FooterTitle variant="body1">information</FooterTitle>
           <List>
             <ListItemText>
@@ -72,10 +74,10 @@ This course introduces pharmacy practice and the technician's role in a variety 
           </List>
         </Grid>
         <Grid item md={6} lg={2}>
-          <FooterTitle variant="body1">my account</FooterTitle>
+          {/* <FooterTitle variant="body1">my account</FooterTitle> */}
           <List>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              {/* <Typography lineHeight={2} variant="caption2">
                 Login
               </Typography>
             </ListItemText>
@@ -92,26 +94,12 @@ This course introduces pharmacy practice and the technician's role in a variety 
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
                 Wishlist
-              </Typography>
+              </Typography> */}
             </ListItemText>
           </List>
         </Grid>
         <Grid item md={6} lg={4}>
-          <FooterTitle variant="body1">newsletter</FooterTitle>
-          <Stack>
-            <SubscribeTf
-              color="primary"
-              label="Email address"
-              variant="standard"
-            />
-            <Button
-              startIcon={<SendIcon sx={{ color: Colors.white }} />}
-              sx={{ mt: 4, mb: 4 }}
-              variant="contained"
-            >
-              Subscribe
-            </Button>
-          </Stack>
+      
         </Grid>
       </Grid>
     </Box>

@@ -30,10 +30,8 @@ import {
         <AppbarHeader variant="h4">Welcome to Pharmacy</AppbarHeader>
         <MyList type="row">
           <ListItemText primary="Home" />
-          <ListItemText primary="Categories" />
           <ListItemText primary="Products" />
           <ListItemText primary="About us" />
-          <ListItemText primary="Contact us" />
           <ListItemButton onClick={() => setShowSearchBox(true)}>
             <ListItemIcon>
               <SearchIcon />

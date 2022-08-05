@@ -42,7 +42,7 @@ import {
             </ListItemButton>
             <MiddleDivider />
             <ListItemButton>
-              <ListItemText>Categories</ListItemText>
+              {/* <ListItemText>Categories</ListItemText> */}
             </ListItemButton>
             <MiddleDivider />
             <ListItemButton>
@@ -50,12 +50,9 @@ import {
             </ListItemButton>
             <MiddleDivider />
             <ListItemButton>
-              <ListItemText>About Us</ListItemText>
+            <ListItemText>About Us</ListItemText>
             </ListItemButton>
             <MiddleDivider />
-            <ListItemButton>
-              <ListItemText>Contact Us</ListItemText>
-            </ListItemButton>
             <MiddleDivider />
           </List>
         </Drawer>
