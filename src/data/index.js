@@ -4,7 +4,7 @@ export const products = [
       name: "Equate",
       price: 129.99,
       description: "Great product. If you are new to allergies take this for 2/3 days and you will start to notice symptom relief. Used with Flonase it truly helps.",
-      image: "https://images.unsplash.com/photo-1585406777536-626aee43d377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBoYXJtYWNpZXN8ZW58MHx8MHx8&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1585406777536-626aee43d377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBoYXJtYWNpZXN8ZW58MHx8MHx8&w=1000&q=80 w=[250px]"
   },
   {
       id: 2,
