@@ -4,7 +4,7 @@ export const products = [
       name: "Equate",
       price: 129.99,
       description: "Great product. If you are new to allergies take this for 2/3 days and you will start to notice symptom relief. Used with Flonase it truly helps.",
-      image: "https://images.unsplash.com/photo-1585406777536-626aee43d377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBoYXJtYWNpZXN8ZW58MHx8MHx8&w=1000&q=80 w=[250px]"
+      image: "https://images.unsplash.com/photo-1585406777536-626aee43d377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBoYXJtYWNpZXN8ZW58MHx8MHx8&w=1000&q=80"
   },
   {
       id: 2,
@@ -22,7 +22,7 @@ export const products = [
   },
   {
       id: 4,
-      name: "Xcel Brainpower Tablets 60 Tablets",
+      name: "Xcel Brainpower 60 Tablets",
       price: 296.99,
       description: "Xcel Brainpower Tablets 60 Tablets has a compound formulation that may assist in managing cognitive disorders.",
       image: "https://media.istockphoto.com/photos/cropped-shot-of-medication-on-a-kitchen-table-with-an-unrecognizable-picture-id1330898031?k=20&m=1330898031&s=612x612&w=0&h=jsEeFheDSBagnlLU2JWH0YxyjKLRL6m6mmZIBPAl6s4="

@@ -20,7 +20,7 @@ export default function Banner() {
         <BannerTitle variant="h2">New Pharmacy</BannerTitle>
 
         <BannerDescription variant="subtitle">
-          Purses for first impressions 
+          Live healthily. Live happily. Live Long. 
         </BannerDescription>
       </BannerContent>
     </BannerContainer>
