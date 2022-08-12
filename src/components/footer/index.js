@@ -34,7 +34,7 @@ export default function Footer() {
           <FooterTitle variant="body1">About us</FooterTitle>
           <Typography variant="caption2">
             
-This course introduces pharmacy practice and the technician's role in a variety of pharmacy settings. Topics include medical terminology and abbreviations, drug delivery systems, law and ethics, prescription and medication orders, and the health care system.
+This course introduces pharmacy practice and the technician's role in a variety of pharmacy settings. Topics include medical terminology, drug delivery systems, law and ethics, prescription and medication orders, and the health care system.
           </Typography>
           <Box
             sx={{
