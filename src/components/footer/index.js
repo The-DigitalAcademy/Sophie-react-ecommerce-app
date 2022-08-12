@@ -42,9 +42,7 @@ This course introduces pharmacy practice and the technician's role in a variety 
               color: Colors.dove_gray,
             }}
           >
-            <FacebookIcon sx={{ mr: 1 }} />
-            <TwitterIcon sx={{ mr: 1 }} />
-            <InstagramIcon />
+            
           </Box>
         </Grid>
 
