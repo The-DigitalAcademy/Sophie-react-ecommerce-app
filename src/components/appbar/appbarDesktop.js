@@ -25,13 +25,18 @@ export default function AppbarDesktop({ matches }) {
   
   const { setShowSearchBox } = useUIContext();
 
+  const accessTo = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView();
+  }
+
   return (
     <AppbarContainer>
       <AppbarHeader variant="h4">Welcome to Pharmacy</AppbarHeader>
       <MyList type="row">
-        <ListItemText primary="Home" />
-        <ListItemText primary="Products" />
-        <ListItemText primary="About us" />
+        <ListItemText primary="Home" id="home" />
+        <ListItemText primary="Products" id="product" />
+        <ListItemText primary="About us" id="about" />
         <ListItemButton onClick={() => setShowSearchBox(true)}>
           <ListItemIcon>
             <SearchIcon />
