@@ -13,6 +13,7 @@ export default function ProductMeta({ product, matches}) {
 
             </Typography>
         </ProductMetaWrapper>
-    )
+      
+    );
 
 }

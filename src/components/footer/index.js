@@ -1,21 +1,14 @@
-import styled from "@emotion/styled";
 
 import {
   Grid,
   List,
   ListItemText,
   Typography,
-  Button,
-  Stack,
-  Container,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import { Colors } from "../../styles/theme";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import { SubscribeTf, FooterTitle } from "../../styles/footer";
-import SendIcon from "@mui/icons-material/Send";
+import { FooterTitle } from "../../styles/footer";
+
 
 export default function Footer() {
   return (
@@ -32,9 +25,8 @@ export default function Footer() {
       <Grid container spacing={2} justifyContent="center">
         <Grid item md={6} lg={4}>
           <FooterTitle variant="body1">About us</FooterTitle>
-          <Typography variant="caption2">
-            
-This course introduces pharmacy practice and the technician's role in a variety of pharmacy settings. Topics include medical terminology, drug delivery systems, law and ethics, prescription and medication orders, and the health care system.
+          <Typography variant="caption2">    
+            This course introduces pharmacy practice and the technician's role in a variety of pharmacy settings. Topics include medical terminology, drug delivery systems, law and ethics, prescription and medication orders, and the health care system.
           </Typography>
           <Box
             sx={{

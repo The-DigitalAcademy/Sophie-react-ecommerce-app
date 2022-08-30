@@ -5,7 +5,7 @@ import {
   BannerContent,
   BannerDescription,
   BannerImage,
-  BannerTitle,
+  BannerTitle, BannerShopButton
 } from "../../styles/banner";
 
 export default function Banner() {
@@ -22,6 +22,7 @@ export default function Banner() {
         <BannerDescription variant="subtitle">
           Live healthily. Live happily. Live Long. 
         </BannerDescription>
+        <BannerShopButton color ="primary">Shop Now</BannerShopButton>
       </BannerContent>
     </BannerContainer>
   );

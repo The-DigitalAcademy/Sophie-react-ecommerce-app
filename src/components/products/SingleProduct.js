@@ -1,15 +1,13 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
-  ExtraActionsWrapper,
   Product,
   ProductActionButton,
   ProductActionsWrapper,
   ProductAddToCart,
   ProductFavButton,
   ProductImage,
-  ProductMetaWrapper,
-} from "../../styles/Products/index.js";
-import { Stack, Tooltip, Typography } from "@mui/material";
+} from "../../styles/Products/index"
+import { Stack, Tooltip } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import FitScreenIcon from "@mui/icons-material/FitScreen";
@@ -18,10 +16,10 @@ import ProductDetail from "../productdetail";
 import ProductMeta from "./ProductMeta";
 
 export default function SingleProduct({ product, matches }) {
-  const [ProductDetailDialog, showProductDetailDialog, closeProductDialog] =
+  const [ProductDetailDialog, showProductDetailDialog] =
     useDialogModal(ProductDetail);
 
-  const [showOptions, setShowOptions] = useState(false);
+  const [ setShowOptions] = useState(false);
 
   const handleMouseEnter = () => {
     setShowOptions(true);
