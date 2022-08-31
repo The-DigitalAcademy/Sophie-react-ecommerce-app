@@ -17,7 +17,7 @@ export const Home = () => {
         document.title = "React Material UI - Home";
       }, []);
   return (
-    <div>
+    <div id='home'>
         <ThemeProvider theme={theme}>
       <Container
         disableGutters

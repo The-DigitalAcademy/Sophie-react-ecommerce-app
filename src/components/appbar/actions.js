@@ -1,9 +1,9 @@
-import { Divider, ListItemButton, ListItemIcon } from "@mui/material";
-import { ActionIconsContainerDesktop, ActionIconsContainerMobile, MyList } from "../../styles/appbar";
-import PersonIcon from "@mui/icons-material/Person";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { Colors } from "../../styles/theme";
+// import { Divider, ListItemButton, ListItemIcon } from "@mui/material";
+import { ActionIconsContainerDesktop, ActionIconsContainerMobile } from "../../styles/appbar";
+// import PersonIcon from "@mui/icons-material/Person";
+// import FavoriteIcon from "@mui/icons-material/Favorite";
+// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import { Colors } from "../../styles/theme";
 
 export default function Actions({ matches }) {
 
@@ -11,7 +11,7 @@ export default function Actions({ matches }) {
 
   return (
     <Component>
-      <MyList type="row">
+      {/* <MyList type="row">
         <ListItemButton
           sx={{
             justifyContent: "center",
@@ -60,7 +60,7 @@ export default function Actions({ matches }) {
           </ListItemIcon>
         </ListItemButton>
         <Divider orientation="vertical" flexItem />
-      </MyList>
+      </MyList> */}
     </Component>
   );
 }

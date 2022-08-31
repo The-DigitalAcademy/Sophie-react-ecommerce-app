@@ -1,6 +1,6 @@
 
 import "./App.css";
-import { Container, Typography, Box, Stack, Grid, Button } from "@mui/material";
+import { Container, Typography, Box, Stack } from "@mui/material";
 import Appbar from "./components/appbar";
 import { ThemeProvider } from "@mui/system";
 import theme from "./styles/theme";
@@ -11,6 +11,7 @@ import Footer from "./components/footer";
 import AppDrawer from "./components/drawer";
 import Promotions from "./components/promotions";
 // import SearchBox from "./components/search";
+// import About from "./pages/About"
 import { useEffect } from "react";
 
 function App() {

@@ -12,7 +12,8 @@ import { FooterTitle } from "../../styles/footer";
 
 export default function Footer() {
   return (
-    <Box
+    <Box 
+    id="about"
       sx={{
         background: Colors.shaft,
         color: Colors.white,
@@ -22,7 +23,7 @@ export default function Footer() {
         fontSize: { xs: '12px', md: '14px' }
       }}
     >
-      <Grid container spacing={2} justifyContent="center">
+      <Grid container spacing={2} justifyContent="center" id="About">
         <Grid item md={6} lg={4}>
           <FooterTitle variant="body1">About us</FooterTitle>
           <Typography variant="caption2">    

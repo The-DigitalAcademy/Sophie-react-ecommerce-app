@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import { products } from "../../data";
 import SingleProduct from "./SingleProduct";
 import { useTheme } from "@mui/material/styles";
@@ -19,7 +19,7 @@ export default function Products() {
     </Grid>
   ));
   return (
-    <Container>
+    <Container id="product">
       <Grid        
         container
         spacing={{ xs: 2, md: 3 }}
