@@ -11,7 +11,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { Colors } from "../../styles/theme/index";
 import styled from "@emotion/styled";
 import { Product, ProductImage } from "../../styles/Products/index"
-import IncDec from "../../components/ui/index"
+// import IncDec from "../../components/ui/index"
 import { useTheme } from "@mui/material/styles";
 import { useMediaQuery } from "@mui/material";
 
@@ -77,7 +77,7 @@ export default function ProductDetail({ open, onClose, product }) {
               alignItems="center"
               justifyContent="space-between"
             >
-              <IncDec />
+              {/* <IncDec /> */}
             </Box>
           </ProductDetailInfoWrapper>
         </ProductDetailWrapper>

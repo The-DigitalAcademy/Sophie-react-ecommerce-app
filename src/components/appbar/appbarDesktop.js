@@ -10,7 +10,7 @@ import Actions from "./actions";
 
 export default function AppbarDesktop({ matches }) {
   
-  // const { setShowSearchBox } = useUIContext();
+
 
   const accessTo = (id) => {
     const element = document.getElementById(id);
