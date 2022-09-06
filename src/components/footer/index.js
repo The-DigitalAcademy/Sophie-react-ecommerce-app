@@ -1,4 +1,3 @@
-
 import {
   Grid,
   List,
@@ -65,27 +64,8 @@ export default function Footer() {
           </List>
         </Grid>
         <Grid item md={6} lg={2}>
-          {/* <FooterTitle variant="body1">my account</FooterTitle> */}
           <List>
             <ListItemText>
-              {/* <Typography lineHeight={2} variant="caption2">
-                Login
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                My Cart
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                My Account
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                Wishlist
-              </Typography> */}
             </ListItemText>
           </List>
         </Grid>

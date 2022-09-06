@@ -3,13 +3,10 @@ import {
   Product,
   ProductActionButton,
   ProductActionsWrapper,
-  ProductAddToCart,
   ProductFavButton,
   ProductImage,
 } from "../../styles/Products/index"
 import { Stack, Tooltip } from "@mui/material";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
 import FitScreenIcon from "@mui/icons-material/FitScreen";
 import useDialogModal from "../../hooks/useDialogModal";
 import ProductDetail from "../productdetail";
@@ -35,13 +32,7 @@ export default function SingleProduct({ product, matches }) {
         <ProductActionsWrapper>
           <Stack direction={matches ? "row" : "column"}>
             <ProductFavButton isfav={0}>
-              {/* <FavoriteIcon /> */}
             </ProductFavButton>
-            {/* <ProductActionButton>
-              <Tooltip placement="left" title="share this product">
-                <ShareIcon color="primary" />
-              </Tooltip>
-            </ProductActionButton> */}
             <ProductActionButton onClick={() => showProductDetailDialog()}>
               <Tooltip style={{margin: "100px"}} placement="right" title="Full view">
                 <FitScreenIcon color="primary" />
@@ -50,7 +41,6 @@ export default function SingleProduct({ product, matches }) {
           </Stack>
         </ProductActionsWrapper>
       </Product>
-      {/* <ProductAddToCart variant="contained">Add to cart</ProductAddToCart> */}
       <ProductDetailDialog product={product} />
     </>
   );

@@ -27,19 +27,8 @@ export default function SingleProductDesktop({ product, matches }) {
     <>
       <Product onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <ProductImage src={product.image} />
-          {/* <FavoriteIcon /> */}
           <ProductActionsWrapper show={showOptions || matches}>
           <Stack direction={matches ? "row" : "column"}>
-            {/* <ProductActionButton>
-              <Tooltip placement="left" title="share this product">
-                <ShareIcon color="primary" />
-              </Tooltip>
-            </ProductActionButton> */}
-            {/* <ProductActionButton onClick={() => showProductDetailDialog()}>
-              <Tooltip  placement="left" title="Full view">
-                <FitScreenIcon color="primary" />
-              </Tooltip>
-            </ProductActionButton> */}
           </Stack>
         </ProductActionsWrapper>
         {(showOptions || matches) && (
@@ -48,11 +37,7 @@ export default function SingleProductDesktop({ product, matches }) {
             <FitScreenIcon color="primary" />
           </Tooltip>
         </ProductActionButton>
-          // <ProductAddToCart style={{margin: "5px"}} show={showOptions} variant="contained">
-          //    <Tooltip  placement="left" title="Full view">
-          //       <FitScreenIcon color="primary" />
-          //     </Tooltip>
-          // </ProductAddToCart>
+  
         )}
         
       </Product>

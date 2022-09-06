@@ -1,8 +1,6 @@
 import { IconButton, Slide } from '@mui/material';
-// import { useContext } from 'react';
 import { SearchBoxContainer , SearchField } from '../../styles/search';
 import SearchIcon from '@mui/icons-material/Search';
-// import CloseIcon from '@mui/icons-material/Close';
 
 export default function SearchBox() {
     
@@ -23,16 +21,6 @@ export default function SearchBox() {
                             }}
                             color='secondary' />
                     </IconButton>
-                    {/* <IconButton 
-                    onClick={() => setShowSearchBox(false)}
-                    sx={{
-                        position: 'absolute',
-                        top: 10,
-                        right: 10
-                    }}
-                    >
-                    <CloseIcon sx={{fontsize: '4rem'}} colr="secondary" />
-                    </IconButton> */}
             </SearchBoxContainer>
         </Slide>
     )

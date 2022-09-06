@@ -40,5 +40,26 @@ export const products = [
       price: 310.99,
       description: "Keen Mind 60 Capsules is formulated with bacopa monnieri CDRI 08 extract to enhance brain functions, like memory, concentration and learning, in adults and children.",
       image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDQ3NTgzfGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDliL2hkNi85MzM1ODM5MjYwNzAyLmpwZ3wwODQ2NDRjOWJlZWZlYTE4ZDgyYzBkYWEzMTczZjA2NDRmYmI5ZTZjZTdkOTY3NjdhMTYxYWYzMzk0OWUxODhj"
-  }
+  },
+  {
+    id: 7,
+    name: "Zinc and Magnesium Tablets 30s",
+    price: 94.99,
+    description: "Cipla Ultimag Advanced Zinc & Magnesium Tablets 30s is a complementary health supplement to help combat stress and boost immunity.",
+    image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDE3NDc5NHxpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2g3ZS9oNmMvMTA1ODIyODI3MzE1NTAuanBnfGRlNjZiZjYyZDJjZTc3YTkzYWU0ZjI2MTY3MzM1ODUyZTliMGFlM2QwMDRkNjExZWVkOTlmMTYwY2Y4ZWM3YTg"
+},
+{
+    id: 8,
+    name: "Slow-Mags",
+    price: 330.99,
+    description: "Slow Mag 100 Capsules relieves muscle cramps, fatigue and the effects of stress. It also improves recovery after exercise. ",
+    image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDI0MTcxNHxpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2g2Ny9oMzMvMTAzODY0NzM3NzkyMzAuanBnfDQ4OTUyNGU1ZGI4YTUxZGI0NWEzZGJmOGU5M2U3YjY3ODIxY2NiYjY3ZjM0NGM3MTQ4MTRjZTAwZTY2MmE4YjE"
+},
+{
+    id: 9,
+    name: "Panado",
+    price: 24.99,
+    description: "Panado Paracetamol 500mg 24 Tablets contain 500 mg of paracetamol and help with the relief of mild pains caused by headaches, toothaches and pains associated with colds and flu. It's relief you can trust for the whole family.",
+    image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDE3MDY0N3xpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2g0Zi9oZmEvMTA1ODY1MzM1Mjc1ODIuanBnfDFmY2E4ODM5ZjgwNzY1YWI0YzczNGE2MWEzZjA3ZWNiZDllOTYwNTE3YmU0ODY5ODhhNTUyNTU2MTcxODNlNGM"
+}
 ]

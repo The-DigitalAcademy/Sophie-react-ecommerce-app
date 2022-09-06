@@ -1,26 +1,11 @@
-// import {
-//   Box,
-//   Divider,
-//   List,
-//   ListItemButton,
-//   ListItemIcon,
-//   ListItemText,
-//   Stack,
-//   Typography,
-// } from "@mui/material";
 import "../../App.css";
 import {
-  // AppbarActionIcons,
   AppbarContainer,
   AppbarHeader,
   MyList,
 } from "../../styles/appbar";
-// import PersonIcon from "@mui/icons-material/Person";
-// import FavoriteIcon from "@mui/icons-material/Favorite";
-// import SearchIcon from "@mui/icons-material/Search";
-// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Actions from "./actions";
-// import { useUIContext } from "../../context/ui";
+
 
 
 export default function AppbarDesktop({ matches }) {
@@ -45,14 +30,6 @@ export default function AppbarDesktop({ matches }) {
         <li className="link" onClick={() => accessTo("about")}>
           About
         </li>
-        {/* <ListItemText primary="Home" id="home" />
-        <ListItemText primary="Products" id="product" />
-        <ListItemText primary="About us" id="about" />
-        <ListItemButton>
-          <ListItemIcon> */}
-            {/* <SearchIcon onClick={() => setShowSearchBox(true)}></SearchIcon> */}
-          {/* </ListItemIcon>
-        </ListItemButton> */}
           </MyList>
        <Actions matches={matches} />   
     </AppbarContainer>
