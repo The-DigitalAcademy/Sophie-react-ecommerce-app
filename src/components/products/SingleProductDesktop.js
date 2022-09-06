@@ -39,18 +39,25 @@ export default function SingleProductDesktop({ product, matches }) {
                 <ShareIcon color="primary" />
               </Tooltip>
             </ProductActionButton> */}
-            <ProductActionButton onClick={() => showProductDetailDialog()}>
-              <Tooltip placement="left" title="Full view">
+            {/* <ProductActionButton onClick={() => showProductDetailDialog()}>
+              <Tooltip  placement="left" title="Full view">
                 <FitScreenIcon color="primary" />
               </Tooltip>
-            </ProductActionButton>
+            </ProductActionButton> */}
           </Stack>
         </ProductActionsWrapper>
         </ProductFavButton>
         {(showOptions || matches) && (
-          <ProductAddToCart show={showOptions} variant="contained">
-            Add to cart
-          </ProductAddToCart>
+          <ProductActionButton onClick={() => showProductDetailDialog()}>
+          <Tooltip  placement="left" title="Full view">
+            <FitScreenIcon color="primary" />
+          </Tooltip>
+        </ProductActionButton>
+          // <ProductAddToCart style={{margin: "5px"}} show={showOptions} variant="contained">
+          //    <Tooltip  placement="left" title="Full view">
+          //       <FitScreenIcon color="primary" />
+          //     </Tooltip>
+          // </ProductAddToCart>
         )}
         
       </Product>

@@ -7,19 +7,18 @@ import {
   DialogContent,
   Typography,
   Button,
-  Stack,
 } from "@mui/material";
-import { useRef } from "react";
+// import { useRef } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import { Colors } from "../../styles/theme/index";
 import styled from "@emotion/styled";
-import { ProductAddToCart, Product, ProductImage } from "../../styles/Products/index"
-import { BannerShopButton } from "../../styles/banner";
+import { Product, ProductImage } from "../../styles/Products/index"
+// import { BannerShopButton } from "../../styles/banner";
 import IncDec from "../../components/ui/index"
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import TwitterIcon from "@mui/icons-material/Twitter";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import FavoriteIcon from "@mui/icons-material/Favorite";
 import { useTheme } from "@mui/material/styles";
 import { useMediaQuery } from "@mui/material";
 
@@ -71,8 +70,8 @@ export default function ProductDetail({ open, onClose, product }) {
             <ProductImage src={product.image} />
           </Product>
           <ProductDetailInfoWrapper>
-            <Typography variant="subtitle">SKU: 123</Typography>
-            <Typography variant="subtitle">Availability: 5 in stock</Typography>
+            {/* <Typography variant="subtitle">SKU: 123</Typography>
+            <Typography variant="subtitle">Availability: 5 in stock</Typography> */}
             <Typography sx={{ lineHeight: 2 }} variant="h4">
               {product.name}
             </Typography>
@@ -88,9 +87,9 @@ export default function ProductDetail({ open, onClose, product }) {
               justifyContent="space-between"
             >
               <IncDec />
-              <Button variant="contained">Add to Cart</Button>
+              {/* <Button variant="contained">Add to Cart</Button> */}
             </Box>
-            <Box
+            {/* <Box
               display="flex"
               alignItems="center"
               sx={{ mt: 4, color: Colors.light }}
@@ -107,7 +106,7 @@ export default function ProductDetail({ open, onClose, product }) {
               <FacebookIcon />
               <TwitterIcon sx={{ pl: 2 }} />
               <InstagramIcon sx={{ pl: 2 }} />
-            </Box>
+            </Box> */}
           </ProductDetailInfoWrapper>
         </ProductDetailWrapper>
       </DialogContent>

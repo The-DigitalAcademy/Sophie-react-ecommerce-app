@@ -35,22 +35,22 @@ export default function SingleProduct({ product, matches }) {
         <ProductActionsWrapper>
           <Stack direction={matches ? "row" : "column"}>
             <ProductFavButton isfav={0}>
-              <FavoriteIcon />
+              {/* <FavoriteIcon /> */}
             </ProductFavButton>
-            <ProductActionButton>
+            {/* <ProductActionButton>
               <Tooltip placement="left" title="share this product">
                 <ShareIcon color="primary" />
               </Tooltip>
-            </ProductActionButton>
+            </ProductActionButton> */}
             <ProductActionButton onClick={() => showProductDetailDialog()}>
-              <Tooltip placement="left" title="Full view">
+              <Tooltip style={{margin: "100px"}} placement="right" title="Full view">
                 <FitScreenIcon color="primary" />
               </Tooltip>
             </ProductActionButton>
           </Stack>
         </ProductActionsWrapper>
       </Product>
-      <ProductAddToCart variant="contained">Add to cart</ProductAddToCart>
+      {/* <ProductAddToCart variant="contained">Add to cart</ProductAddToCart> */}
       <ProductDetailDialog product={product} />
     </>
   );
