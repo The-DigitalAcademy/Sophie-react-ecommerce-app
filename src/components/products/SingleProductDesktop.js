@@ -3,12 +3,9 @@ import {
   Product,
   ProductActionButton,
   ProductActionsWrapper,
-  ProductAddToCart,
-  ProductFavButton,
   ProductImage,
 } from "../../styles/Products/index"
 import { Stack, Tooltip} from "@mui/material";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 import FitScreenIcon from "@mui/icons-material/FitScreen";
 import useDialogModal from "../../hooks/useDialogModal";
 import ProductDetail from "../productdetail";
@@ -30,7 +27,6 @@ export default function SingleProductDesktop({ product, matches }) {
     <>
       <Product onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <ProductImage src={product.image} />
-        <ProductFavButton>
           {/* <FavoriteIcon /> */}
           <ProductActionsWrapper show={showOptions || matches}>
           <Stack direction={matches ? "row" : "column"}>
@@ -46,7 +42,6 @@ export default function SingleProductDesktop({ product, matches }) {
             </ProductActionButton> */}
           </Stack>
         </ProductActionsWrapper>
-        </ProductFavButton>
         {(showOptions || matches) && (
           <ProductActionButton onClick={() => showProductDetailDialog()}>
           <Tooltip  placement="left" title="Full view">
