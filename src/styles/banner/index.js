@@ -13,9 +13,9 @@ export const BannerContainer = styled(Box)(({ matches, theme }) => ({
     flexDirection: "column",
     alignItems: "center",
   },
-  // backgroundImage: `url(/images/banner/banner.png)`,
-  // backgroundRepeat: "no-repeat",
-  // backgroundPosition: "center",
+   backgroundImage: `url(/images/banner/banner.png)`,
+   backgroundRepeat: "no-repeat",
+   backgroundPosition: "center",
 }));
 
 export const BannerContent = styled(Box)(() => ({
@@ -28,9 +28,9 @@ export const BannerContent = styled(Box)(() => ({
 
 export const BannerImage = styled("img")(({ src, theme }) => ({
   src: `url(${src})`,
-  // backgroundImage: `url(${src})`,
-  // backgroundRepeat: "no-repeat",
-  // backgroundPosition: "center",
+   backgroundImage: `url(${src})`,
+  backgroundRepeat: "no-repeat",
+   backgroundPosition: "center",
   width: "500px",
   [theme.breakpoints.down("md")]: {
     width: "350px",
@@ -62,7 +62,7 @@ export const BannerDescription = styled(Typography)(({ theme }) => ({
 }));
 
 export const BannerShopButton = styled(Button, {
-  // Configure which props should be forwarded on DOM
+  //  Configure which props should be forwarded on DOM
   shouldForwardProp: (prop) => prop !== "color",
   name: "MyShopButton",
   slot: "Root",

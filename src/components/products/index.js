@@ -5,16 +5,16 @@ import { useTheme } from "@mui/material/styles";
 import { useMediaQuery } from "@mui/material";
 import SingleProductDesktop from "./SingleProductDesktop";
 
-export default function Products() {
+export default function Products({addProductToCart}) {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
 
   const renderProducts = products.map((product) => (
     <Grid item key={product.id} xs={2} sm={4} md={4} display="flex" flexDirection={'column'} alignItems="center">
       {matches ? (
-        <SingleProduct product={product} matches={matches} />
+        <SingleProduct product={product} matches={matches} addProductToCart={addProductToCart} />
       ) : (
-        <SingleProductDesktop product={product} matches={matches} />
+        <SingleProductDesktop product={product} matches={matches} addProductToCart={addProductToCart} />
       )}
     </Grid>
   ));

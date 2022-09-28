@@ -14,7 +14,7 @@ import { useEffect } from "react";
 
 export const Home = () => {
     useEffect(() => {
-        document.title = "React Material UI - Home";
+        document.title = "My pharmacy";
       }, []);
   return (
     <div id='home'>

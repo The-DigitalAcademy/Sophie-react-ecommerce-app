@@ -8,7 +8,7 @@ import Actions from "./actions";
 
 
 
-export default function AppbarDesktop({ matches }) {
+export default function AppbarDesktop({ matches, cartProducts, handleClickOpen }) {
   
 
 
@@ -30,8 +30,9 @@ export default function AppbarDesktop({ matches }) {
         <li className="link" onClick={() => accessTo("about")}>
           About
         </li>
+        
           </MyList>
-       <Actions matches={matches} />   
+       <Actions matches={matches} cartProducts={cartProducts} handleClickOpen={handleClickOpen} />   
     </AppbarContainer>
   );
 }

@@ -12,17 +12,17 @@ import useDialogModal from "../../hooks/useDialogModal";
 import ProductDetail from "../productdetail";
 import ProductMeta from "./ProductMeta";
 
-export default function SingleProduct({ product, matches }) {
+export default function SingleProduct({ product, matches, addProductToCart }) {
   const [ProductDetailDialog, showProductDetailDialog] =
     useDialogModal(ProductDetail);
 
-  const [ setShowOptions] = useState(false);
+  const [setShowOptions] = useState(false);
 
   const handleMouseEnter = () => {
     setShowOptions(true);
   };
   const handleMouseLeave = () => {
-    setShowOptions(false);
+    // setShowOptions(false);
   };
   return (
     <>
@@ -41,7 +41,7 @@ export default function SingleProduct({ product, matches }) {
           </Stack>
         </ProductActionsWrapper>
       </Product>
-      <ProductDetailDialog product={product} />
+      <ProductDetailDialog product={product} addProductToCart={addProductToCart} />
     </>
   );
 }

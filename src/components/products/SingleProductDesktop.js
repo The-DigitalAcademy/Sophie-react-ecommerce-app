@@ -11,7 +11,7 @@ import useDialogModal from "../../hooks/useDialogModal";
 import ProductDetail from "../productdetail";
 import ProductMeta from "./ProductMeta";
 
-export default function SingleProductDesktop({ product, matches }) {
+export default function SingleProductDesktop({ product, matches, addProductToCart }) {
   const [ProductDetailDialog, showProductDetailDialog] =
     useDialogModal(ProductDetail);
 
@@ -32,7 +32,7 @@ export default function SingleProductDesktop({ product, matches }) {
           </Stack>
         </ProductActionsWrapper>
         {(showOptions || matches) && (
-          <ProductActionButton onClick={() => showProductDetailDialog()}>
+          <ProductActionButton onClick={() => {showProductDetailDialog()}}>
           <Tooltip  placement="left" title="Full view">
             <FitScreenIcon color="primary" />
           </Tooltip>
@@ -42,7 +42,7 @@ export default function SingleProductDesktop({ product, matches }) {
         
       </Product>
       <ProductMeta product={product} />
-      <ProductDetailDialog product={product} />
+      <ProductDetailDialog product={product} addProductToCart={addProductToCart} />
     </>
   );
 }

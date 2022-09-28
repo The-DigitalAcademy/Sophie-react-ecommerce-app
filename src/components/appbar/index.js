@@ -4,7 +4,7 @@ import AppbarDesktop from "./appbarDesktop";
 import AppbarMoilbe from "./appbarMobile";
 
 
-export default function Appbar(){
+export default function Appbar({cartProducts, handleClickOpen}){
 
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down('md'));
@@ -14,7 +14,7 @@ export default function Appbar(){
              {matches ? (
              <AppbarMoilbe matches={matches} /> 
              ) : (
-             <AppbarDesktop matches={matches} />
+             <AppbarDesktop matches={matches} cartProducts={cartProducts} handleClickOpen={handleClickOpen} />
              )}
         </>
     );
